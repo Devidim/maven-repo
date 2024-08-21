@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.matsuyoido",
+    "module": "plugin",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-2.1.0.jar",
+          "url": "plugin-2.1.0.jar",
+          "size": 73434,
+          "sha512": "bb8a1c2ccde250f128c34b9f68c49e1bdafe7ec76e10b265d2147a27ff82d4becf24b1230988f35cd1227ce920a1eeb78bfb6898fa9b9d82bb791a84a757633f",
+          "sha256": "b30104417efd1d5f37df0a62fbc68bd7c8a687faab24594f00519f57fd236faf",
+          "sha1": "431d9a2b2fde54c1a319e5208e5f2c763d857377",
+          "md5": "d6a6e88d83938f2665eb245f255117ee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.bit3",
+          "module": "jsass",
+          "version": {
+            "requires": "5.9.2"
+          }
+        },
+        {
+          "group": "com.yahoo.platform.yui",
+          "module": "yuicompressor",
+          "version": {
+            "requires": "2.4.8"
+          }
+        },
+        {
+          "group": "com.google.javascript",
+          "module": "closure-compiler-unshaded",
+          "version": {
+            "requires": "v20191027"
+          }
+        },
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.9.3"
+          }
+        },
+        {
+          "group": "com.helger",
+          "module": "ph-css",
+          "version": {
+            "requires": "6.2.0"
+          }
+        },
+        {
+          "group": "org.webjars.npm",
+          "module": "caniuse-db",
+          "version": {
+            "requires": "1.0.30000748"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-2.1.0.jar",
+          "url": "plugin-2.1.0.jar",
+          "size": 73434,
+          "sha512": "bb8a1c2ccde250f128c34b9f68c49e1bdafe7ec76e10b265d2147a27ff82d4becf24b1230988f35cd1227ce920a1eeb78bfb6898fa9b9d82bb791a84a757633f",
+          "sha256": "b30104417efd1d5f37df0a62fbc68bd7c8a687faab24594f00519f57fd236faf",
+          "sha1": "431d9a2b2fde54c1a319e5208e5f2c763d857377",
+          "md5": "d6a6e88d83938f2665eb245f255117ee"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "plugin-2.1.0-javadoc.jar",
+          "url": "plugin-2.1.0-javadoc.jar",
+          "size": 186780,
+          "sha512": "a7b590524956dbe6b60932df3a82731e45709ae7a75c697dc664c4cff9951d5a9038214b0af0690123f08b081c89ff423e39c22df6fdcf9e16c3f410e0f4e9e9",
+          "sha256": "612835d197775a1b2cea959e7d3d3cd13d75b142798ad478563d85250112f775",
+          "sha1": "b7d77d236b3d453cba8e5749f31fa4e441d84228",
+          "md5": "456426af4ffc7a32512a023529930564"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "plugin-2.1.0-sources.jar",
+          "url": "plugin-2.1.0-sources.jar",
+          "size": 29110,
+          "sha512": "f757f7f7188441ca23c552aff51e91297db25488d21e40401f614fcaffc9774e8aa38d1e20749187dff27f049d923fb7ef19a0fee3b2c258d8ec86ce1b72f5bd",
+          "sha256": "883b55479e67802da07f9800b298022d7cc1c6bb88819357a8728ace6e79a579",
+          "sha1": "4adb734810389f1308382f79d05fa36ec17dc14b",
+          "md5": "c7775853c8ae72360f259da62fc44562"
+        }
+      ]
+    }
+  ]
+}
